@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if remote URL is supplied
+# Check if remote URL is supplied 
 if [ -z "$1" ]; then
   echo "Error: Remote URL is empty. Usage: ./setup_multiple_remotes.sh [second_remote_url]"
   exit 1
